@@ -1,39 +1,47 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# -------------------------------------------------
+# 🧾 Project: Eventry
+# -------------------------------------------------
+# ✨ Features:
+# - Event listing & details
+# - User interest tracking on events
+# - Optimized images using @plaiceholder/next + sharp
+# - Email notifications via Resend API
+# - MongoDB integration with mongoose
+# - Built with Next.js 14, TailwindCSS, and TypeScript-ready setup
+# -------------------------------------------------
 
-# dependencies
+# 📦 Dependencies
 /node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
 
-# testing
+# 🧪 Testing
 /coverage
 
-# next.js
+# ⚛️ Next.js Build Outputs
 /.next/
-/out/
+out/
 
-# production
+# 🚀 Production Builds
 /build
 
-# misc
+# 🗂️ Miscellaneous
 .DS_Store
 *.pem
 
-# debug
+# 🪲 Debug & Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# 🔒 Environment Variables update
+.env
 .env*.local
 
-# vercel
+# ▲ Vercel
 .vercel
 
-# typescript
+# 🧑‍💻 TypeScript
 *.tsbuildinfo
 next-env.d.ts
-
-
-.env
