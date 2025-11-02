@@ -30,7 +30,7 @@ export const {
                     const user = await userModel.findOne({email: credentials.email});
                     console.log({user})
                     if (user) {
-                          const isMatch = await bcrypt.compare(
+                        const isMatch = await bcrypt.compare(
                             credentials.password,
                             user.password
                         );

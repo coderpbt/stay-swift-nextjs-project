@@ -1,6 +1,5 @@
 import { userModel } from "@/models/user-model";
-import { dbConnect } from "@/services/mongo";
-
+import { dbConnect } from "@/service/mongo";
 import bcrypt from "bcryptjs";
 import { NextRequest, NextResponse } from "next/server";
 

@@ -8,9 +8,14 @@ const Navbar = async ({ sideMenu }) => {
     console.log(session);
     return (
         <nav>
-               <Link className="text-3xl font-bold border-2 py-2 px-4 rounded-md border-black" href="/">
-      Stay Swift
-    </Link>
+            <Link href="/">
+                <Image
+                    src="/stayswift.svg"
+                    alt="Stay Swift Logo"
+                    width={200}
+                    height={200}
+                />
+            </Link>
             {sideMenu && (
                 <ul>
                     <li>
